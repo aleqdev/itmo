@@ -2,7 +2,7 @@ package custom.pikachu.moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class ChargeBeam extends SpecialMove {
+public final class ChargeBeam extends SpecialMove {
 
     public ChargeBeam() {
         super(Type.ELECTRIC, 50, 90);

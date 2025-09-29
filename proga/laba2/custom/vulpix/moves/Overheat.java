@@ -2,7 +2,7 @@ package custom.vulpix.moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Overheat extends SpecialMove {
+public final class Overheat extends SpecialMove {
 
     public Overheat() {
         super(Type.FIRE, 130, 90);

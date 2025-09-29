@@ -2,7 +2,7 @@ package custom.pikachu.moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class WildCharge extends PhysicalMove {
+public final class WildCharge extends PhysicalMove {
 
     public WildCharge() {
         super(Type.ELECTRIC, 90, 100);

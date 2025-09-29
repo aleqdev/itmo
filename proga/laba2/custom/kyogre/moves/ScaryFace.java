@@ -2,7 +2,7 @@ package custom.kyogre.moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class ScaryFace extends StatusMove {
+public final class ScaryFace extends StatusMove {
 
     public ScaryFace() {
         super(Type.NORMAL, 0, 100);

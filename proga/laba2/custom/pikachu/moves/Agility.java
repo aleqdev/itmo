@@ -2,7 +2,7 @@ package custom.pikachu.moves;
 
 import ru.ifmo.se.pokemon.*;
 
-public class Agility extends StatusMove {
+public final class Agility extends StatusMove {
 
     public Agility() {
         super(Type.PSYCHIC, 0, 0);
